@@ -1,0 +1,125 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/icons/iconsax.ttf",
+      "sha1": "fbcae546a365f6f18dd5a6723795881cd593f40a"
+    },
+    {
+      "path": "src/assets/icons/selection.json",
+      "sha1": "15ed1256deadeb3c6e707afd1c89ce357cfc1c06"
+    },
+    {
+      "path": "src/assets/fonts/nunito/Nunito-Black.ttf",
+      "sha1": "e338cd0fa9399ea96cd13aa051ee065ecc9d88ed"
+    },
+    {
+      "path": "src/assets/fonts/nunito/Nunito-BlackItalic.ttf",
+      "sha1": "fc0bae6adc63443387991d23f21f684a78d1ecc6"
+    },
+    {
+      "path": "src/assets/fonts/nunito/Nunito-Bold.ttf",
+      "sha1": "a3c1198b825daa393cd0e7ead864b09fc80c62b9"
+    },
+    {
+      "path": "src/assets/fonts/nunito/Nunito-BoldItalic.ttf",
+      "sha1": "b85eeafe3475d2dd8746ca479239ab61058b3492"
+    },
+    {
+      "path": "src/assets/fonts/nunito/Nunito-ExtraBold.ttf",
+      "sha1": "04dd58effd6d51b5937fad55bb7bc7775a45acf7"
+    },
+    {
+      "path": "src/assets/fonts/nunito/Nunito-ExtraBoldItalic.ttf",
+      "sha1": "14dd5b1519ce23ee4e3f1a93193752f0169d96c0"
+    },
+    {
+      "path": "src/assets/fonts/nunito/Nunito-ExtraLight.ttf",
+      "sha1": "4d8cd54c03cc517141f18300def74618b93cde23"
+    },
+    {
+      "path": "src/assets/fonts/nunito/Nunito-ExtraLightItalic.ttf",
+      "sha1": "db05a2a490f71c8f07153c63b8c75cde4a23e53c"
+    },
+    {
+      "path": "src/assets/fonts/nunito/Nunito-Italic.ttf",
+      "sha1": "937fa72223c5b9df98c2ac95aee081af142b7232"
+    },
+    {
+      "path": "src/assets/fonts/nunito/Nunito-Light.ttf",
+      "sha1": "7f3b871f6f3252cf2b38c63a2652d825b834482c"
+    },
+    {
+      "path": "src/assets/fonts/nunito/Nunito-LightItalic.ttf",
+      "sha1": "04283a2587ade2c7c4ec674424445af109bc0ea6"
+    },
+    {
+      "path": "src/assets/fonts/nunito/Nunito-Medium.ttf",
+      "sha1": "5850ed5926826023a2746a53fbd4362719e01a35"
+    },
+    {
+      "path": "src/assets/fonts/nunito/Nunito-MediumItalic.ttf",
+      "sha1": "fece4443ac4608dbc5000185cdbfacf49067d669"
+    },
+    {
+      "path": "src/assets/fonts/nunito/Nunito-Regular.ttf",
+      "sha1": "165fe3cfd90f70da3fee1dff24c777f66af8639b"
+    },
+    {
+      "path": "src/assets/fonts/nunito/Nunito-SemiBold.ttf",
+      "sha1": "c79495c2e7f76b2bfdbc9253857a8365034268bd"
+    },
+    {
+      "path": "src/assets/fonts/nunito/Nunito-SemiBoldItalic.ttf",
+      "sha1": "a415b766b995e41a8eb4b3adef28cdaad7e3aa0e"
+    },
+    {
+      "path": "src/assets/fonts/open-sans/OpenSans-Bold.ttf",
+      "sha1": "b7f844e3fbc592719750956a7e9a19f0ede62c78"
+    },
+    {
+      "path": "src/assets/fonts/open-sans/OpenSans-BoldItalic.ttf",
+      "sha1": "d6e3cfa387d27945108283cccfb0d4672f1dbcdb"
+    },
+    {
+      "path": "src/assets/fonts/open-sans/OpenSans-ExtraBold.ttf",
+      "sha1": "4c204a41e07fc00472a4b8754a6248cf5983fbf7"
+    },
+    {
+      "path": "src/assets/fonts/open-sans/OpenSans-ExtraBoldItalic.ttf",
+      "sha1": "9a9225a5fb4b681f6dc153e407993f3244ca59e9"
+    },
+    {
+      "path": "src/assets/fonts/open-sans/OpenSans-Italic.ttf",
+      "sha1": "53c332cf06b1b7ec3314e13c71eb0caaa12f4ded"
+    },
+    {
+      "path": "src/assets/fonts/open-sans/OpenSans-Light.ttf",
+      "sha1": "bef371c2ba3ac8cc2ef276a65cc3be46414d1ffd"
+    },
+    {
+      "path": "src/assets/fonts/open-sans/OpenSans-LightItalic.ttf",
+      "sha1": "a8de340ddb596f59962a54a1809c06ee332c1516"
+    },
+    {
+      "path": "src/assets/fonts/open-sans/OpenSans-Medium.ttf",
+      "sha1": "71e723b6f61cd4034b2bd373f3f346a7d8680ec2"
+    },
+    {
+      "path": "src/assets/fonts/open-sans/OpenSans-MediumItalic.ttf",
+      "sha1": "075f5bc788eeff9fda2286051eb50b545d9e5030"
+    },
+    {
+      "path": "src/assets/fonts/open-sans/OpenSans-Regular.ttf",
+      "sha1": "b334209f43426374b709e42e3185dc46478a96ba"
+    },
+    {
+      "path": "src/assets/fonts/open-sans/OpenSans-SemiBold.ttf",
+      "sha1": "45974cf9acbd1be118f2b426c7cfab33ee584e3c"
+    },
+    {
+      "path": "src/assets/fonts/open-sans/OpenSans-SemiBoldItalic.ttf",
+      "sha1": "b78d330449bef1963c55486ef647f4071531e67c"
+    }
+  ]
+}
