@@ -1,4 +1,4 @@
-const Primary = '#FF3B30' // Rojo para botones y elementos destacados
+const Primary = '#FF7075' // Rojo para botones y elementos destacados
 const PrimaryLighter = '#FFD1CF' // Rojo claro para fondos o resaltados suaves
 const Secondary = '#34C759' // Verde para notificaciones o estados de éxito
 const SecondaryLighter = '#DDFFE6' // Verde claro para fondos o resaltados suaves

@@ -10,13 +10,15 @@ import Input from 'components/Input'
 import { mediumSpace } from 'styles/Spacing'
 import { largeSize } from 'styles/Size'
 import { login } from 'features/auth/authSlice'
+import { NativeStackNavigationProp } from '@react-navigation/native-stack'
+import { RootStackParamList } from 'services/navigator/navigationTypes'
 import styles from './Login.styles'
 
 export const Login = () => {
+  const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>()
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
   const dispatch = useDispatch()
-  const navigation = useNavigation()
 
   const handleLogin = async () => {
     if (username.trim() && password.trim()) {
@@ -43,8 +45,8 @@ export const Login = () => {
     <SafeArea containerStyles={{ marginHorizontal: mediumSpace }}>
       <Icon name={'undo2'} style={styles.iconColor} size={largeSize} />
       <Text style={styles.text}>Log in</Text>
-      <Input placeholder="Username" value={username} onChangeText={setUsername} />
-      <Input placeholder="Password" value={password} onChangeText={setPassword} secureTextEntry />
+      <Input placeholder="Usuario" value={username} onChangeText={setUsername} />
+      <Input placeholder="Contraseña" value={password} onChangeText={setPassword} secureTextEntry />
       <Button title="LOG IN" onPress={handleLogin} style={styles.button} />
     </SafeArea>
   )
