@@ -6,7 +6,7 @@ export type IconFunctionProps = {}
 
 export type IconOwnProps = {
   size?: number
-  name: string
+  name?: string
   color?: ColorValue | number
 } & RNTextProps
 
