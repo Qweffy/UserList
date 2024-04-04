@@ -1,5 +1,5 @@
 export type RootStackParamList = {
   Login: undefined
-  Home: undefined
+  HomeTabNavigator: undefined
   ItemDetail: { itemId: string }
 }
