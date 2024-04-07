@@ -1,6 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
 import { persistStore, persistReducer } from 'redux-persist'
 import AsyncStorage from '@react-native-async-storage/async-storage'
+import { usersApi } from 'app/services/usersApi'
 import rootReducer from './rootReducer'
 
 const persistConfig = {
@@ -11,13 +12,13 @@ const persistConfig = {
 const persistedReducer = persistReducer(persistConfig, rootReducer)
 
 const store = configureStore({
-  reducer: persistedReducer,
+  reducer: { persistedReducer, [usersApi.reducerPath]: usersApi.reducer },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
       serializableCheck: {
         ignoredActions: ['persist/PERSIST', 'persist/REHYDRATE', 'persist/PAUSE', 'persist/PURGE', 'persist/REGISTER'],
       },
-    }),
+    }).concat(usersApi.middleware),
 })
 
 export const persistor = persistStore(store)

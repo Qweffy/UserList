@@ -1,5 +1,7 @@
+import { User } from 'types/UserTypes'
+
 export type RootStackParamList = {
   Login: undefined
-  Home: undefined
-  ItemDetail: { itemId: string }
+  HomeTabNavigator: undefined
+  ItemDetail: { user: User }
 }
