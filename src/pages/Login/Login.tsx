@@ -24,7 +24,7 @@ export const Login = () => {
     if (username.trim() && password.trim()) {
       await AsyncStorage.setItem('isLoggedIn', 'true')
       dispatch(login())
-      navigation.navigate('Home')
+      navigation.navigate('HomeTabNavigator')
     } else {
       Alert.alert('Login Failed', 'Username and password cannot be empty')
     }
@@ -34,7 +34,7 @@ export const Login = () => {
     const checkLoginStatus = async () => {
       const isLoggedIn = await AsyncStorage.getItem('isLoggedIn')
       if (isLoggedIn === 'true') {
-        navigation.navigate('Home')
+        navigation.navigate('HomeTabNavigator')
       }
     }
 
