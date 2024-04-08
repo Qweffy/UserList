@@ -21,7 +21,11 @@ export const HomeTabNavigator = () => (
     initialRouteName="Home"
     screenOptions={({ route }) => ({
       headerShown: false,
-      tabBarStyle: { backgroundColor: Colors.Primary, height: x5LargeSize },
+      tabBarStyle: {
+        backgroundColor: Colors.Primary,
+        height: x5LargeSize,
+        paddingBottom: xxSmallSize,
+      },
       tabBarLabelStyle: { color: Colors.Background, paddingBottom: xxSmallSize },
       tabBarIcon: ({ focused, size }) => {
         let iconName
